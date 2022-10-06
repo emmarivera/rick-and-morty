@@ -56,6 +56,7 @@ function App() {
         <aside className="hero-image-title">
           
         </aside>
+      </article>
       <form onSubmit={handleSubmit}>
         <input
           id="idLocation"
@@ -69,7 +70,6 @@ function App() {
           setSearchInput={setSearchInput}
         />
       </form>
-      </article>
       {
         hasError ? 
         <ErrorScreen />
