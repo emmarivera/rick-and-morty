@@ -1,0 +1,33 @@
+.card__location-info {
+    background-color: #034242;
+    text-align: center;
+    margin: 2rem auto;
+    padding-top: 2rem;
+    max-width: 70%;
+}
+
+.ul__location-info {
+    display: grid;
+    text-align: center;
+    background-color: #034242;
+    max-width: 800px;
+    margin: 20px auto;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 3rem;
+    padding-bottom: 2rem;
+   
+
+}
+ 
+li {
+
+    gap: 10rem;
+}
+
+h2 {
+    display: inline-block;
+
+  }  
+  
